@@ -1,0 +1,40 @@
+# Secrets — NEVER commit these
+.env
+*.env
+
+# Database files — mounted as a volume, never committed
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Legacy data files
+paid_channels.json
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Logs
+*.log
+logs/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store

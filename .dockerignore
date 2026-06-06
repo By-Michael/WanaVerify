@@ -1,0 +1,42 @@
+# Secrets — must never be baked into the image
+.env
+*.env
+
+# Database files — mounted as a volume at runtime
+*.db
+*.db-wal
+*.db-shm
+
+# Legacy data
+paid_channels.json
+data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+logs/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Docs (not needed in image)
+*.md
