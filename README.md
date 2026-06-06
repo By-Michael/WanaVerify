@@ -26,7 +26,7 @@ A Telegram bot that automates paid channel subscriptions by verifying Ethiopian 
 ### 1. Clone & Configure
 
 ```bash
-git clone https://github.com/your-username/et-payment-verifier-bot.git
+git clone https://github.com/By-Michael/WanaVerify.git
 cd et-payment-verifier-bot
 
 # Copy the example config and fill in your values
