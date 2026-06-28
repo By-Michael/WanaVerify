@@ -193,6 +193,8 @@ The `.env` file is passed via `env_file` — it is **not** baked into the image.
 
 ---
 
-## 📄 License
+## License
 
-MIT — see [LICENSE](LICENSE) for details.
+Copyright © 2026. All rights reserved.
+
+This project is proprietary and closed-source. Unauthorized copying, modification, distribution, or commercial use of this software, via any medium, is strictly prohibited.
